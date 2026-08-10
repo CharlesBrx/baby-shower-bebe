@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#FAF8F3">
+  <title>Baby Shower · Bebé</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <section class="hero reveal">
+      <div class="moon"></div>
+      <div class="stars" aria-hidden="true">✦　·　✧　·　✦</div>
+      <img class="hero-bear" src="assets/bear-sitting.jpg" alt="Osito de peluche en tonos beige">
+      <p class="eyebrow">TE INVITAMOS A NUESTRO</p>
+      <h1>Baby Shower</h1>
+      <div class="baby-name">Bebé</div>
+      <p class="opening">Hay una pequeña historia<br>que está a punto de comenzar…</p>
+      <button class="scroll-btn" onclick="document.querySelector('#welcome').scrollIntoView({behavior:'smooth'})">
+        Desliza para descubrir <span>⌄</span>
+      </button>
+    </section>
+
+    <section id="welcome" class="section welcome reveal">
+      <img src="assets/bear-sitting.jpg" alt="" class="section-bear">
+      <p class="eyebrow">UNA NUEVA HISTORIA</p>
+      <h2>Estamos muy felices de compartir<br>este momento tan especial contigo.</h2>
+      <p>¡No podemos esperar para celebrar la llegada de nuestro Bebé!</p>
+      <span class="heart">♡</span>
+    </section>
+
+    <section class="section countdown-section reveal">
+      <p class="eyebrow">CADA VEZ FALTA MENOS</p>
+      <h2>Nos vemos en…</h2>
+      <div class="countdown" id="countdown">
+        <div><strong id="days">--</strong><span>DÍAS</span></div>
+        <div><strong id="hours">--</strong><span>HORAS</span></div>
+        <div><strong id="minutes">--</strong><span>MINUTOS</span></div>
+        <div><strong id="seconds">--</strong><span>SEGUNDOS</span></div>
+      </div>
+      <img src="assets/bear-sleeping.jpg" alt="Osito dormido" class="sleeping-bear">
+    </section>
+
+    <section class="section event reveal">
+      <p class="eyebrow">DETALLES DEL EVENTO</p>
+      <h2>Guarda la fecha</h2>
+      <div class="details-grid">
+        <article><span class="icon">♡</span><h3>Fecha</h3><p>Domingo 29 de noviembre<br><small>Fecha tentativa</small></p></article>
+        <article><span class="icon">◷</span><h3>Hora</h3><p>2:00 PM</p></article>
+        <article><span class="icon">⌖</span><h3>Lugar</h3><p>Próximamente compartiremos<br>la ubicación.</p></article>
+      </div>
+      <button class="primary" disabled>Agregar al calendario · Próximamente</button>
+    </section>
+
+    <section class="section dress reveal">
+      <p class="eyebrow">DRESS CODE</p>
+      <h2>Formal · Casual</h2>
+      <p>Te invitamos a vestir en tonos blanco y beige.</p>
+      <div class="swatches">
+        <div><span class="swatch white"></span><b>Blanco</b></div>
+        <div><span class="swatch beige"></span><b>Beige</b></div>
+      </div>
+      <img src="assets/bear-heart.jpg" alt="Osito sosteniendo un corazón" class="heart-bear">
+    </section>
+
+    <section class="section gifts reveal">
+      <p class="eyebrow">MESA DE REGALOS</p>
+      <h2>Un detalle para Bebé</h2>
+      <p>Próximamente compartiremos los detalles de nuestra mesa de regalos.</p>
+      <button class="secondary" disabled>Próximamente</button>
+      <img src="assets/bear-cloud.jpg" alt="Osito sobre una nube" class="cloud-bear">
+    </section>
+
+    <section class="section location reveal">
+      <p class="eyebrow">UBICACIÓN</p>
+      <h2>Estamos preparando<br>un lugar muy especial.</h2>
+      <p>Próximamente compartiremos la ubicación.</p>
+      <div class="location-buttons">
+        <button disabled>Google Maps · Próximamente</button>
+        <button disabled>Waze · Próximamente</button>
+      </div>
+    </section>
+
+    <section class="section rsvp reveal">
+      <img src="assets/bear-heart.jpg" alt="" class="rsvp-bear">
+      <p class="eyebrow">RSVP</p>
+      <h2>Confirma tu asistencia</h2>
+      <p>Tu presencia hará este día aún más especial.</p>
+      <a class="primary" href="#" id="whatsapp">Confirmar asistencia por WhatsApp</a>
+    </section>
+
+    <section class="final reveal">
+      <img src="assets/bear-waving.jpg" alt="Osito saludando" class="final-bear">
+      <h2>Gracias</h2>
+      <p>por acompañarnos en este momento tan especial.</p>
+      <div class="baby-name small">¡Te esperamos!</div>
+    </section>
+  </main>
+
+  <footer>♡ Hecho con amor para celebrar la llegada de nuestro Bebé ♡</footer>
+  <script src="script.js"></script>
+</body>
+</html>
