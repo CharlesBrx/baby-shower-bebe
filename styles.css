@@ -1,8 +1,8 @@
 *{box-sizing:border-box}
 :root{
-  --ivory:#FAF8F3;--cream:#F2EBDD;--beige:#E3D4C1;
-  --bear:#CDB9A2;--taupe:#A99682;--brown:#705D4D;
-  --shadow:0 18px 60px rgba(112,93,77,.10)
+  --ivory:#FAF8F3;--cream:#F2EBDD;--beige:#E3D4C1;
+  --bear:#CDB9A2;--taupe:#A99682;--brown:#705D4D;
+  --shadow:0 18px 60px rgba(112,93,77,.10)
 }
 html{scroll-behavior:smooth}
 body{margin:0;background:var(--ivory);color:var(--brown);font-family:Poppins,system-ui,sans-serif}
